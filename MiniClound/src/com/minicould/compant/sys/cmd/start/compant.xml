@@ -1,0 +1,14 @@
+<compant-config>
+	<compant name="start" namespace="start">
+		<version-config version="1.0">
+			<cmd-parser>com.minicould.comon.parser.SystemCmdParser</cmd-parser>
+			<params-mapping>
+				<param key="t" type="int" check="NOTNULL"/>
+				<param key="n" type="String" check="NOTNULL"/>
+				<param key="v" type="String" check="NOTNULL"/>
+				<param key="cn" type="String" check="NOTNULL"/>
+				<param key="cv" type="String" check="NOTNULL"/>				
+			</params-mapping>
+		</version-config>
+	</compant>
+</compant-config>

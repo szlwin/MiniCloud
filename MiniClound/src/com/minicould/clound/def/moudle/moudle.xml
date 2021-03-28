@@ -1,0 +1,23 @@
+<clound-config>
+	<clound name="testMoudle">
+		<service-lib-path>
+			<lib-path>D:/testMoudle</lib-path>
+		</service-lib-path>
+		
+		<version-config version="1.1">
+			<moudle-init-values>
+				<init-value key="test" value="ok"/>
+				<init-value key="notest" value="fail"/>
+			</moudle-init-values>
+			<service-config>
+				<service-info>
+					<name></name>
+					<namespace></namespace>
+					<version></version>
+					<class></class>
+				</service-info>
+			</service-config>
+		</version-config>
+	</clound>
+</clound-config>
+		

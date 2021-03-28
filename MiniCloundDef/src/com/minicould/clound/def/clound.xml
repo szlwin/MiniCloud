@@ -1,0 +1,74 @@
+<clound-config>
+	<clound name="defaultClound" namespace="defaultClound">
+		<version-config version="1.0">
+			<system-init-values>
+				<init-value key="test" value="ok"/>
+				<init-value key="notest" value="fail"/>
+			</system-init-values>
+			
+			<clound-lib-path>
+				<system-lib-path>E:/miniclound/clound/default_1.0/syslib/</system-lib-path>
+				<compant-lib-path>E:/miniclound/clound/default_1.0/compantlib/</compant-lib-path>
+				<moudle-lib-path>E:/miniclound/clound/default_1.0/moudlelib/</moudle-lib-path>
+			</clound-lib-path>
+			
+			<system-cmd-list>
+				<cmd-info>
+					<name>start</name>
+					<namespace>start</namespace>
+					<version>1.0</version>
+					<class>com.minicould.compant.sys.cmd.start.StartCommand</class>
+				</cmd-info>
+				<cmd-info>
+					<name>stop</name>
+					<namespace>stop</namespace>
+					<version>1.0</version>
+					<class>com.minicould.compant.sys.cmd.stop.StopCommand</class>
+				</cmd-info>
+				<cmd-info>
+					<name>service</name>
+					<namespace>service</namespace>
+					<version>1.0</version>
+					<class>com.minicould.compant.sys.cmd.service.ServiceCommand</class>
+				</cmd-info>
+				<cmd-info>
+					<name>load,change,test</name>
+					<namespace>load,change,test</namespace>
+					<version>1.0</version>
+					<class>com.minicould.compant.sys.cmd.load.LoadCommand</class>
+				</cmd-info>
+				<cmd-info>
+					<name>back,restore</name>
+					<namespace>back,restore</namespace>
+					<version>1.0</version>
+					<class>com.minicould.compant.sys.cmd.back.BackCommand</class>
+				</cmd-info>
+				<cmd-info>
+					<name>saveconfig</name>
+					<namespace>saveconfig</namespace>
+					<version>1.0</version>
+					<class>com.minicould.compant.sys.cmd.save.SaveCloundCommand</class>
+				</cmd-info>				
+			</system-cmd-list>
+			
+			<!-- 
+			<compant-list>
+				<compant-info>
+					<name></name>
+					<namespace></namespace>
+					<version></version>
+					<class></class>
+				</compant-info>
+			</compant-list> -->
+			
+			<moudle-list>
+				<moudle-info>
+					<name>testMoudle</name>
+					<namespace>testMoudle</namespace>
+					<version>1.1</version>
+					<class>com.minicould.clound.def.moudle.DefaultMoudle</class>
+				</moudle-info>
+			</moudle-list>
+		</version-config>
+	</clound>
+</clound-config>

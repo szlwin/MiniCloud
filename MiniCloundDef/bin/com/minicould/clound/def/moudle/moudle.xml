@@ -1,0 +1,24 @@
+<moudle-config>
+	<moudle name="testMoudle">
+		<version-config version="1.1">
+			<moudle-init-values>
+				<init-value key="test" value="ok"/>
+				<init-value key="notest" value="fail"/>
+			</moudle-init-values>
+			
+			<moudle-lib-path>
+				<service-lib-path>E:/miniclound/clound/default_1.0/moudlelib/testMoudle_1.1/</service-lib-path>
+			</moudle-lib-path>
+		
+			<service-list>
+				<service-info>
+					<name>test</name>
+					<namespace>test</namespace>
+					<version>1.0</version>
+					<class>com.minicould.clound.def.service.DefaultService</class>
+				</service-info>
+			</service-list>
+		</version-config>
+	</moudle>
+</moudle-config>
+		

@@ -1,0 +1,10 @@
+<mini-clound>
+	<clound-info>
+		<name>defaultClound</name>
+		<namespace>defaultClound</namespace>
+		<version>1.0</version>
+		<class>com.minicould.clound.def.DefaultClound</class>
+		<path>E:/miniclound/clound/</path>
+		<init-compant>com.minicould.compant.sys.cmd.init.InitCommand</init-compant>
+	</clound-info>
+</mini-clound>

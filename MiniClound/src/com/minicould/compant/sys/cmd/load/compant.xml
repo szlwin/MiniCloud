@@ -1,0 +1,21 @@
+<compant-config>
+	<compant name="load,change,test">
+		<version-config version="1.0">
+			<!-- <init-values>
+				<init-value key="" value=""/>
+				<init-value key="" value=""/>
+			</init-values> -->
+			<cmd-parser>com.minicould.comon.parser.SystemCmdParser</cmd-parser>
+			<params-mapping>
+				<param key="name" type="String" check="NOTNULL"/>
+				<param key="type" type="int" check="NOTNULL"/>
+				<param key="version" type="string" check="NOTNULL"/>
+				<param key="jar" type="string" check="NOTNULL"/>
+				<param key="mn" type="string" check="NOTNULL"/>
+				<param key="mv" type="string" check="NOTNULL"/>
+			</params-mapping>
+			<return-value type="com.minicould.common.desc.Desc">
+			</return-value>
+		</version-config>
+	</compant>
+</compant-config>

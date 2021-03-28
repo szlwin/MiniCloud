@@ -1,0 +1,11 @@
+<compant-config>
+	<compant name="saveclound" namespace="saveclound">
+		<version-config version="1.0">
+			<cmd-parser>com.minicould.comon.parser.SystemCmdParser</cmd-parser>
+			<params-mapping>
+				<param key="name" type="String" check="NOTNULL"/>
+				<param key="version" type="String" check="NOTNULL"/>
+			</params-mapping>
+		</version-config>
+	</compant>
+</compant-config>

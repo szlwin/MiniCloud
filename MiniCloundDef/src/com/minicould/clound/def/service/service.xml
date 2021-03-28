@@ -1,0 +1,15 @@
+<service-config>
+	<service name="test">
+		<version-config version="1.0">
+			<!-- <init-values>
+				<init-value key="" value=""/>
+				<init-value key="" value=""/>
+			</init-values> -->
+			<params-mapping>
+				<param key="name" type="String" check="NOTNULL"/>
+			</params-mapping>
+			<return-value type="string">
+			</return-value>
+		</version-config>
+	</service>
+</service-config>

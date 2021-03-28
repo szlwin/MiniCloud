@@ -1,0 +1,14 @@
+<compant-config>
+	<compant name="service" namespace="service">
+		<version-config version="1.0">
+			<cmd-parser>com.minicould.comon.parser.SystemCmdParser</cmd-parser>
+			<params-mapping>
+				<param key="mn" type="String" check="NOTNULL"/>
+				<param key="mv" type="String" check="NOTNULL"/>
+				<param key="name" type="String" check="NOTNULL"/>
+				<param key="version" type="String" check="NOTNULL"/>
+				<param key="param" type="String" check="NOTNULL"/>		
+			</params-mapping>
+		</version-config>
+	</compant>
+</compant-config>
